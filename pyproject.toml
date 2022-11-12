@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "django-admin-row-actions-2"
+name = "django-admin-row-actions"
 version = "0.0.6"
 description = "django-admin-row-actions"
 authors = ["Andy Baker <andy@andybak.net>"]
