@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "django-admin-row-actions-2"
+version = "0.0.5"
+description = "django-admin-row-actions"
+authors = ["Andy Baker <andy@andybak.net>"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.urls]
+"homepage" = "https://github.com/panhaoyu/django-admin-row-actions.git"
+"repository" = "https://github.com/panhaoyu/django-admin-row-actions.git"
+"documentation" = "https://github.com/panhaoyu/django-admin-row-actions.git"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.1"
+phy-base = "^0.1.38"
+
+[[tool.poetry.source]]
+name = "panhaoyu"
+url = "https://pypi.panhaoyu.com/simple/"
+default = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

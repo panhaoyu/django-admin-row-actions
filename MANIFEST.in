@@ -1,5 +1,0 @@
-include LICENSE
-include README.md
-recursive-include django_admin_row_actions/static *
-recursive-include django_admin_row_actions/templates *
-recursive-include django_admin_row_actions/locale *
