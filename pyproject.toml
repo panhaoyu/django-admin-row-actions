@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-admin-row-actions"
-version = "0.0.8"
+version = "0.0.9"
 description = "django-admin-row-actions"
 authors = ["Andy Baker <andy@andybak.net>"]
 classifiers = [
